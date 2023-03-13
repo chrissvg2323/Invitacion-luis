@@ -61,6 +61,8 @@ body {
 .tituloMedium {
     font-family: 'allura';
     font-size: 30px;
+    color: rgb(124, 124, 124);
+
 }
 
 .texto-large {
@@ -88,7 +90,7 @@ body {
 }
 
 .linea {
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(89, 89, 89);
     height: 2px;
     width: 100%;
     padding: 0;
