@@ -1,0 +1,201 @@
+/* ******* Fuentes inicio ****** */
+
+@font-face {
+    font-family: "allura";
+    src: url(../font/allura/Allura-Regular.otf);
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(../font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Fragment_Mono";
+    src: url(../font/Fragment_Mono/FragmentMono-Regular.ttf);
+}
+
+/* ******* Fuentes fin ****** */
+
+body {
+    margin:0;
+    padding:0
+  }
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contenedor {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 220, 0.66);
+    margin-top: 40px;
+}
+
+#fondo {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+.titulo {
+    font-family: 'allura';
+    font-size: 40px;
+}
+
+.tituloMedium {
+    font-family: 'allura';
+    font-size: 30px;
+}
+
+.texto-large {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Fragment_Mono';
+}
+
+.texto-medium {
+    font-size: medium;
+    font-family: "Fragment_Mono";
+    font-weight: 400;
+    width: 80%;
+}
+
+.quinciañera img {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    /* border: 5px solid rgb(255, 255, 255); */
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    width: 100%;
+    padding: 0;
+    margin-top: 0%;
+    margin-bottom: 0% j;
+}
+
+/* ************ Cuenta regresiva inicio *********** */
+
+#cuenta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-family: "Fragment_Mono";
+    font-size: smaller;
+
+}
+
+.simply-section {
+    margin: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simply-amount {
+    display: block;
+    font-size: large;
+}
+
+/* ************ Cuenta regresiva fin *********** */
+
+.agendar{
+    width: 15%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 600ms ease;
+    transform: scale(0.90);
+}
+
+.agendar:hover{
+    background-color: rgba(169, 169, 169, 0.265);
+    cursor: pointer; 
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(142, 140, 177, 0.5);
+}
+
+.img{
+    width: 80%;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mesa{
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    font-family: "Fragment_Mono";
+    color: black;
+    font-weight: bold;
+}
+
+.button{
+    font-size: large;
+    font-family: "Fragment_Mono";
+    background-color: rgb(249, 228, 228);
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    transition: all 600ms ease;
+    transform: scale(0.90);
+    margin-bottom: 20px;
+}
+
+.button:hover{
+    background-color: rgba(169, 169, 169, 0.265);
+    cursor: pointer; 
+    transform: scale(1);
+}
+
+.dress-h{
+    width: 40%;
+}
+
+.dress-m{
+    width: 60%;
+}
+
+.contacto{
+    width: 30%;
+    transition: all 600ms ease;
+    transform: scale(0.90);
+}
+
+.contacto:hover{
+    background-color: rgba(169, 169, 169, 0.265);
+    cursor: pointer; 
+    transform: scale(1);
+}
+
+.flex-row{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
