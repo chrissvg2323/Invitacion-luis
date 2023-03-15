@@ -40,10 +40,10 @@ body {
     margin-top: 10px;
 }
 
-#fondo {
+.fondo {
     width: 100%;
     height: 100%;
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat:no-repeat;
     background:url(../img/fondo.png);
     background-attachment: fixed;
