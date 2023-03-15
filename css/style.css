@@ -43,10 +43,9 @@ body {
 #fondo {
     width: 100%;
     height: 100%;
-    background-size: cover;
+    background-size: auto 100%;
     background-repeat:no-repeat;
     background:url(../img/fondo.png);
-    background-size: cover;
     background-attachment: fixed;
     overflow: scroll;
 }
