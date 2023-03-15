@@ -43,7 +43,7 @@ body {
 #fondo {
     width: 100%;
     height: 100%;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat:no-repeat;
     background:url(../img/fondo.png);
     background-size: cover;
@@ -57,7 +57,11 @@ body {
     color: rgb(200, 162, 200);
 }   
 
-
+.titulo2 {
+    font-family: 'allura';
+    font-size: 40px;
+    color: rgb(119, 119, 119);
+}   
 .tituloMedium {
     font-family: 'allura';
     font-size: 30px;
